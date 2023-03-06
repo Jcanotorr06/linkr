@@ -2,6 +2,7 @@ import { Suspense, type VoidComponent } from "solid-js";
 import { A } from "solid-start";
 import { BsGithub } from "solid-icons/bs";
 import Auth from "~/components/Auth";
+import { BiRegularLoaderAlt } from "solid-icons/bi";
 
 const Header: VoidComponent = () => {
   return (
@@ -13,7 +14,14 @@ const Header: VoidComponent = () => {
           </div>
         </A>
         <article class="flex items-center space-x-6">
-          <Suspense>
+          <Suspense
+            fallback={
+              <button disabled class="btn btn-ghost rounded">
+                <BiRegularLoaderAlt class="animate-spin" />
+                Loading...
+              </button>
+            }
+          >
             <Auth />
           </Suspense>
           <a href="https://github.com/Jcanotorr06/linkr" target="_blank" rel="noreferrer">

@@ -1,4 +1,4 @@
-import { Suspense, VoidComponent } from "solid-js";
+import { Suspense, type VoidComponent } from "solid-js";
 import { Outlet } from "solid-start";
 import Footer from "~/layouts/components/Footer";
 import Header from "~/layouts/components/Header";
