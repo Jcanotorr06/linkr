@@ -51,7 +51,7 @@ const Auth: VoidComponent = () => {
           <A href="/dash">
             <DropdownItem icon={<BiRegularBox size={16} />}>Dashboard</DropdownItem>
           </A>
-          <a href="https://github.com/Jcanotorr06/slug/issues/new" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Jcanotorr06/linkr/issues/new" target="_blank" rel="noreferrer">
             <DropdownItem icon={<BiRegularMessageSquareEdit size={16} />} external={true}>
               Report a bug
             </DropdownItem>

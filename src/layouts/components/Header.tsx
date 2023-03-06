@@ -16,7 +16,7 @@ const Header: VoidComponent = () => {
           <Suspense>
             <Auth />
           </Suspense>
-          <a href="https://github.com/Jcanotorr06/slug" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Jcanotorr06/linkr" target="_blank" rel="noreferrer">
             <button class="btn btn-circle btn-ghost btn-sm">
               <BsGithub size={20} />
             </button>

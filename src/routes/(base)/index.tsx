@@ -21,7 +21,7 @@ const Home: VoidComponent = () => {
             Getting Started
           </A>
           <a
-            href="https://github.com/Jcanotorr06/slug"
+            href="https://github.com/Jcanotorr06/linkr"
             target="_blank"
             rel="noreferrer"
             class="flex items-center hover:text-white duration-200 transition-colors ml-6"
