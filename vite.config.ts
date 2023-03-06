@@ -1,9 +1,10 @@
 import solid from "solid-start/vite";
 import { defineConfig } from "vite";
+import vercel from "solid-start-vercel";
 
 export default defineConfig(() => {
   return {
-    plugins: [solid({ ssr: true })],
+    plugins: [solid({ ssr: true, adapter: vercel({}) })],
     ssr: { external: ["@prisma/client"], noExternal: ["@kobalte/core"] },
   };
 });
