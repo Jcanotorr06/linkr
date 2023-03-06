@@ -5,7 +5,7 @@ import { BsGithub } from "solid-icons/bs";
 const Footer: VoidComponent = () => {
   return (
     <footer class="fixed bottom-0 my-6 w-full">
-      <section class="container mx-auto flex items-center justify-between">
+      <section class="container px-4 md:px-0 mx-auto flex items-center justify-between">
         <article class="flex items-center space-x-1">
           <p class="text-secondary">⚡ Made by Joseph using</p>
           <div class="flex items-center space-x-1 link-secondary">
