@@ -1,11 +1,7 @@
 import { z } from "zod";
 
 export const serverScheme = z.object({
-  NODE_ENV: z
-    .enum(["development", "production", "test"])
-    .default("development"),
-  DISCORD_ID: z.string(),
-  DISCORD_SECRET: z.string(),
+  NODE_ENV: z.enum(["development", "production", "test"]).default("development"),
   GITHUB_ID: z.string(),
   GITHUB_CLIENT_SECRET: z.string(),
   AUTH_SECRET: z.string(),
